@@ -7,17 +7,17 @@ public class List {
 public void show() {
 	Students a=new Students();
 	 Teacher b=new Teacher();
-	 Course c=new Course("java³ÌĞòÉè¼Æ");
-	 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//ÉèÖÃÈÕÆÚ¸ñÊ½
+	 Course c=new Course("javaç¨‹åºè®¾è®¡");
+	 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//æ—¥æœŸ
 	 a.setNumber("2020322081");	
-		a.setName("baishaowei");
-		a.setSex("boy");
+		a.setName("zhangchuanyang");
+		a.setSex("man");
 		b.setNumber("2020322033");
-		b.setName("°¢±ó");
-		b.setInstruction("javaÊÚ¿ÎÀÏÊ¦");
-		c.setNumber("101");
-		c.setPalce("½ÌÑ§3-206ºÅÂ¥");
-		c.setTeacher("ÕÅÈı");
+		b.setName("Mrå¼ ");
+		b.setInstruction("javaæˆè¯¾è€å¸ˆ");
+		c.setNumber("123");
+		c.setPalce("æ•™å­¦3-206å·æ¥¼");
+		c.setTeacher("å¼ ä¸‰");
 	 String mName = a.getName();
 	 String mNumber = a.getNumber();
 	String mSex = a.getSex();
@@ -38,7 +38,7 @@ public void show() {
 	coursenumber =c.getNumber();
 	courseplace =c.getPalce();
 	courseteacher=c.getTeacher();
-	  System.out.println("Ñ§ÉúÑ¡¿ÎÏµÍ³");
+	  System.out.println("å­¦ç”Ÿé€‰è¯¾ç³»ç»Ÿ");
 	  System.out.println("Serial number is : " + mNumber);
 	  System.out.println("Name is : " + mName);
 	  System.out.println("Gerder is :" + mSex);
@@ -46,16 +46,16 @@ public void show() {
 	  String mClass = a.getClasss();
 	    System.out.println("elective is :" + mClass);
 		System.out.println("lecture teacher code is :"+teachernumber);
-		System.out.println("lecture teacher is £º"+teachername);
+		System.out.println("lecture teacher is ï¼š"+teachername);
 		System.out.println("place location is :"+teacherclass);
 		System.out.println("The course number :"+coursenumber);
         System.out.println("The course name :"+c);
 		System.out.println("Course plance :"+courseplace);
 		System.out.println("sclooltime is :"+df.format(new Date()));
 		System.out.println("lecture teacher name is :"+courseteacher);
-        System.out.println("------------------------------------------");
+        System.out.println("--------------------------------------------------");
         c.xuanke(a.name);
-        System.out.println("------------------------------------------");
+        System.out.println("--------------------------------------------------");
 	    c.duike(a.name);
     
 }
