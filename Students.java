@@ -1,20 +1,20 @@
 package classpackage;
  class Personner{
-	static String number;
+	static String id;
 	static String name=null;
 	static String sex;
-	public Personner(String number,String name,String sex) {
-		this.number=number;
+	public Personner(String id,String name,String sex) {
+		this.id=id;
 		this.name=name;
 		this.sex=sex;
 		
 	}
 	
-	public String getNumber() {
-		return number;
+	public String getId() {
+		return id;
 	}
-	public void setNumber(String number) {
-		this.number = number;
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getName() {
 		return name;
@@ -31,11 +31,11 @@ package classpackage;
 	
 }
 public class Students extends Personner{
-	public Students(String number, String name, String sex) {
-		super(number, name, sex);	
+	public Students(String id, String name, String sex) {
+		super(id, name, sex);	
 	}
 	public Students() {
-		super(number, name, sex);
+		super(id, name, sex);
 	}
     String classs;
 	public String getClasss() {
@@ -48,11 +48,11 @@ public class Students extends Personner{
 	
 }
 class Teacher extends Personner{
-	public Teacher(String number, String name, String sex) {
-		super(number, name, sex);
+	public Teacher(String id, String name, String sex) {
+		super(id, name, sex);
 	}
 	public Teacher() {
-		super(number, name, sex);
+		super(id, name, sex);
 	}
 	String  instruction;
 
@@ -70,7 +70,7 @@ class Course  {
    
 	int arress;
 	String time;
-	String number;
+	String id;
 	String palce;
 	String teacher;
 	String [] a= {"java","java web","ps"};
@@ -83,11 +83,11 @@ class Course  {
 		// TODO Auto-generated method stub
 		return Name;
 	}
-	public String getNumber() {
-		return number;
+	public String getId() {
+		return id;
 	}
-	public void setNumber(String number) {
-		this.number = number;
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getPalce() {
 		return palce;
@@ -105,31 +105,31 @@ class Course  {
 	public void xuanke(String name){
 		Students students=new Students();
 		students.getName();
-		students.setNumber("2020322081");
-		students.setName("°¢±ó");
+		students.setId("2020322094");
+		students.setName("Mrå¼ ");
 		String bh;
-		bh=students.getNumber();
-	    if(students.getNumber()=="2020322081") {
+		bh=students.getId();
+	    if(students.getId()=="2020322094") {
 	    	arress=301;time="8:00";
-	    	System.out.println("Ñ§ÉúĞÕÃû£º"+students.getName());
-	    	System.out.println("Ñ§ÉúÑ¡ÔñµÄ¿Î³Ì £º"+a[0]);
-	    	System.out.println("ÉÏ¿ÎµØµã£º"+arress+"½ÌÊÒ");
-	    	System.out.println("ÉÏ¿ÎÊ±¼ä£º"+time);
+	    	System.out.println("å­¦ç”Ÿå§“åï¼š"+students.getName());
+	    	System.out.println("å­¦ç”Ÿé€‰çš„è¯¾ ï¼š"+a[0]);
+	    	System.out.println("ä¸Šè¯¾æ—¶é—´ï¼š"+time);
+		System.out.println("ä¸Šè¯¾åœ°ç‚¹ï¼š"+arress+"æ•™å®¤");
 	    	
 	    }else  {
-	    	System.out.println("ÄãÊäÈëµÄ¿Î³ÌÓĞÎó");
+	    	System.out.println("ä½ è¾“å…¥çš„è¯¾ç¨‹æœ‰è¯¯");
 	    }
 	}
 	public void duike(String name) {
 		Students students=new Students();
 		students.getName();
-		students.setNumber("2020322081");
-		students.setName("°¢±ó");
+		students.setId("2020322094");
+		students.setName("Mrå¼ ");
 		String bh;
-		bh=students.getNumber();
-		if(students.getNumber()=="2020322081") {
-			System.out.println("Ñ§ÉúĞÕÃû£º"+students.getName());
-			System.out.println("ÄãÒÑ¾­ÍË¿ÎÁË£¬ÆäÖØĞÂÑ¡¿Î");
+		bh=students.getId();
+		if(students.getId()=="2020322094") {
+			System.out.println("å­¦ç”Ÿå§“åï¼š"+students.getName());
+			System.out.println("ä½ é€‰çš„è¯¾å·²ä¸å­˜åœ¨ï¼Œè¯·é‡æ–°é€‰è¯¾");
 		}
 	}
 	
