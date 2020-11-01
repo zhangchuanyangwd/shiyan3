@@ -27,7 +27,7 @@
 ·使用toString（）方法
 ·通过调用函数实现代码调用，输出代码
 # 3.运行截图
-
+![](https://github.com/zhangchuanyangwd/shiyan3/blob/main/1.png)
 
 
    
