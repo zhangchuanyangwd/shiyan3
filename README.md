@@ -11,10 +11,10 @@
 			课程（课程名称、上课地点、时间、授课老师）
 
 # 2.实验方法
-首先创建一个personner类
-创建对象（姓名，学号，性别）
-用继承方法实现学生类老师类继承personner
-实例化
+·首先创建一个personner类
+·创建对象（姓名，学号，性别）
+·用继承方法实现学生类老师类继承personner
+·实例化
    Students a=new Students();
 	 Teacher b=new Teacher();
 	 Course c=new Course("java程序设计");
@@ -24,13 +24,15 @@
 		// TODO Auto-generated method stub
 		return Name;
 	}
-使用toString（）方法
-通过调用函数
+·使用toString（）方法
+·通过调用函数实现代码调用，输出代码
 # 3.运行截图
 
 
 
-
+   
+   
+   
 
 # 4.实验结果
 掌握面向对象的类设计方法（属性、方法）；
